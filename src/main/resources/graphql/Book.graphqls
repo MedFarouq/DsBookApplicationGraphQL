@@ -1,0 +1,9 @@
+scalar Date @specifiedBy(url: "https://scalars.graphql.org/andimarek/local-date")
+type Book {
+    titre : String,
+    publisher : String,
+    datePublication : Date,
+    price : Float,
+    resume : String
+}
+

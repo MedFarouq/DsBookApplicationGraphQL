@@ -1,0 +1,6 @@
+type Mutation{
+    saveBook( book : BookRequest) : Book
+    deleteBook( id: ID ): Boolean
+}
+
+
